@@ -100,3 +100,14 @@ Moreover, recent models are so focused on maxxing out these benchmarks so that s
 5. If server fails to start (bad checkpoint path, OOM, etc):
 
     Error is written to `~/.config/llm-cli/server.log` and last 20 lines are shown to a terminal
+
+
+
+## How does it look like
+
+Basic flow with starting Qwen3-0.6B locally
+
+![](images/prompt.jpg)
+
+Changing system prompt to respond with yo at the end.
+![](images/prompt_system.jpg)
